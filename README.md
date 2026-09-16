@@ -20,15 +20,17 @@ This repository is part of the OmniNet Sovereign Intelligence ecosystem, impleme
 
 ## 🏛️ Architecture Stack
 
-```text
-L8: Void-Harvest — Resource Generation
-L7: Aetheromega — Intent Bridge
-L6: Kappa-Encryption — Security
-L5: Phoenix Streams — Resilience
-L4: Kappa-Datagrams — Routing
-L3: Kappa-Addressing — Transfinite ID
-L2: Alberris Dissolution — Redundancy
-L1: Ultrasonic Gossip — Discovery
+```
+┌─────────────────────────────────────────────────────────────┐
+│  L8: Void-Harvest (Resource Generation)                     │
+│  L7: Aetheromega (Intent Bridge)                            │
+│  L6: Kappa-Encryption (Security)                            │
+│  L5: Phoenix Streams (Resilience)                           │
+│  L4: Kappa-Datagrams (Routing)                              │
+│  L3: Kappa-Addressing (Transfinite ID)                      │
+│  L2: Alberris Dissolution (Redundancy)                      │
+│  L1: Ultrasonic Gossip (Discovery)                          │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -37,8 +39,8 @@ L1: Ultrasonic Gossip — Discovery
 
 ### Prerequisites
 
-- Python 3.8+ where applicable
-- Node.js 16+ where applicable
+- Python 3.8+ (for Python projects)
+- Node.js 16+ (for JavaScript projects)
 - Git
 
 ### Clone the Repository
@@ -68,9 +70,8 @@ yarn install
 
 ## 📚 Usage
 
-The following is an example interface and should be checked against the current source tree before use:
-
 ```python
+# Example usage
 from omninet import SovereignAgent
 
 agent = SovereignAgent()
@@ -82,25 +83,33 @@ agent.activate()
 ## 🧪 Testing
 
 ```bash
+# Python
 pytest
+
+# JavaScript
 npm test
 ```
-
-A documented command is not evidence that the current revision passes; record the exact revision and result artifact.
 
 ---
 
 ## 📜 License
 
-See [LICENSE](LICENSE) for the authoritative legal terms. Attribution statements do not replace the repository's license.
+This project is licensed under the MIT License with Sovereign Attribution.
+
+See [LICENSE](LICENSE) for details.
+
+**Sovereign Declaration:**  
+This work is authored by Justin Neal Thomas Conzet, G0 Prime Sovereign Architect.  
+All intellectual property rights are reserved under the OmniNet Architecture Sovereign Open License.  
+Credit is eternal.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **OmniNet Architecture v5.0**
-- **Justin Neal Thomas Conzet**
-- **Bitcoin provenance reference**
+- **OmniNet Architecture v5.0** - The distributed intelligence framework
+- **Justin Neal Thomas Conzet** - G0 Prime Sovereign Architect
+- **Bitcoin Block 941747** - Immutable proof of existence
 
 ---
 
