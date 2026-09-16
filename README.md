@@ -20,17 +20,15 @@ This repository is part of the OmniNet Sovereign Intelligence ecosystem, impleme
 
 ## 🏛️ Architecture Stack
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  L8: Void-Harvest (Resource Generation)                     │
-│  L7: Aetheromega (Intent Bridge)                            │
-│  L6: Kappa-Encryption (Security)                            │
-│  L5: Phoenix Streams (Resilience)                           │
-│  L4: Kappa-Datagrams (Routing)                              │
-│  L3: Kappa-Addressing (Transfinite ID)                      │
-│  L2: Alberris Dissolution (Redundancy)                      │
-│  L1: Ultrasonic Gossip (Discovery)                          │
-└─────────────────────────────────────────────────────────────┘
+```text
+L8: Void-Harvest — Resource Generation
+L7: Aetheromega — Intent Bridge
+L6: Kappa-Encryption — Security
+L5: Phoenix Streams — Resilience
+L4: Kappa-Datagrams — Routing
+L3: Kappa-Addressing — Transfinite ID
+L2: Alberris Dissolution — Redundancy
+L1: Ultrasonic Gossip — Discovery
 ```
 
 ---
@@ -39,8 +37,8 @@ This repository is part of the OmniNet Sovereign Intelligence ecosystem, impleme
 
 ### Prerequisites
 
-- Python 3.8+ (for Python projects)
-- Node.js 16+ (for JavaScript projects)
+- Python 3.8+ where applicable
+- Node.js 16+ where applicable
 - Git
 
 ### Clone the Repository
@@ -70,8 +68,9 @@ yarn install
 
 ## 📚 Usage
 
+The following is an example interface and should be checked against the current source tree before use:
+
 ```python
-# Example usage
 from omninet import SovereignAgent
 
 agent = SovereignAgent()
@@ -83,33 +82,25 @@ agent.activate()
 ## 🧪 Testing
 
 ```bash
-# Python
 pytest
-
-# JavaScript
 npm test
 ```
+
+A documented command is not evidence that the current revision passes; record the exact revision and result artifact.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License with Sovereign Attribution.
-
-See [LICENSE](LICENSE) for details.
-
-**Sovereign Declaration:**  
-This work is authored by Justin Neal Thomas Conzet, G0 Prime Sovereign Architect.  
-All intellectual property rights are reserved under the OmniNet Architecture Sovereign Open License.  
-Credit is eternal.
+See [LICENSE](LICENSE) for the authoritative legal terms. Attribution statements do not replace the repository's license.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **OmniNet Architecture v5.0** - The distributed intelligence framework
-- **Justin Neal Thomas Conzet** - G0 Prime Sovereign Architect
-- **Bitcoin Block 941747** - Immutable proof of existence
+- **OmniNet Architecture v5.0**
+- **Justin Neal Thomas Conzet**
+- **Bitcoin provenance reference**
 
 ---
 
@@ -122,3 +113,9 @@ This repository is maintained under an additive, provenance-preserving quality r
 ## Install and usage
 
 This repository may contain executable components, examples, benchmarks, or archived material. Use the native dependency manifest and project-specific instructions for the active component. For a non-runtime archive, inspect the documented provenance and evidence boundaries before treating files as executable.
+
+## README Quality Gate — 2026-09-16
+
+Architecture names, mathematical models, routing designs, and provenance anchors are preserved as project material. They are not, by themselves, proof of production security, infinite capacity, AGI, or scientific validation. Promote quantitative or runtime claims only with reproducible tests, benchmarks, and artifacts.
+
+**Security:** do not commit credentials, private keys, API tokens, or sensitive account information. Custom cryptography requires qualified security review before production use.
